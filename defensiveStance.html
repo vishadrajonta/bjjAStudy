@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>3D Object</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Imports a model-viewer JavaScript code -->
+    <!--It helps to handle how the 3D Object would be displayed -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Takedowns
+        </h1>
+        <h2>
+            Keeping Good Defensive Stance
+        </h2>
+        
+
+    </header>
+    <p>
+        It is vitally important to keep a good defensive stance at all times. This includes 
+        matching your head level and angle to your training partners', so that you protect
+        yourself from level changes and flanking attacks. It also involves tucking in your neck, 
+        so that your training partner finds it difficult to get collar ties and to get your hands 
+        to the mat. This is best done by shrugging your shoulders, which in turn is best done when 
+        your elbows are close to your body. You want your hands and elbows low so that you can block
+        your opponent's shot into your legs if he does indeed beat your head. 
+    </p>
+    <!-- Main Container -->
+    <div id="container">
+    
+    
+
+        <!-- An aside -->
+        <!-- This is for holding the 3D object -->
+        <div id="aSide">
+
+            <!-- 3D objsect -->
+            <!-- This inserts the 3D object inside the aside container -->
+            <model-viewer src="assets/barriers_to_takedown.glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/barriers_to_takedown">
+            </model-viewer>
+        </div>
+
+        <!-- Content container -->
+        <!-- This is for holding some brief description about the 3D object -->
+        
+
+        <!-- Social media icons -->
+        <!-- This is for holding some company's social media icons and related links -->
+        <div id="icons">
+       
+        </div>
+    </div>
+</body>
+
+</html>

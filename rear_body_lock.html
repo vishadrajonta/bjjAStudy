@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>3D Object</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Imports a model-viewer JavaScript code -->
+    <!--It helps to handle how the 3D Object would be displayed -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Takedowns
+        </h1>
+        <h2>
+            The Rear Body Lock 
+        </h2>
+        
+
+    </header>
+    <p>
+        The rear body lock is a fantastic position to work takedowns from. As you are behind your 
+        training partner, you negate counters to your takedown such as the guillotine or the kimura. 
+        This position makes a lot of different takedowns available. Once in this position, there is
+        no need to close distance or level change, and your training partner cannot sprawl to defend
+        your takedown. 
+    </p>
+    <!-- Main Container -->
+    <div id="container">
+    
+    
+
+        <!-- An aside -->
+        <!-- This is for holding the 3D object -->
+        <div id="aSide">
+
+            <!-- 3D objsect -->
+            <!-- This inserts the 3D object inside the aside container -->
+            <model-viewer src="assets/rear_body_lock.glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/rearbodylock">
+            </model-viewer>
+        </div>
+
+        <!-- Content container -->
+        <!-- This is for holding some brief description about the 3D object -->
+        
+
+        <!-- Social media icons -->
+        <!-- This is for holding some company's social media icons and related links -->
+        <div id="icons">
+       
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+[
+    {
+        "name" : "arm_in_guillotine",
+        "type_of_submission" : "choke", 
+        "arm_or_leg" : null,
+        "straight_or_twisting" : null
+    }, 
+    {
+        "name" : "arm_triangle",
+        "type_of_submission" : "choke", 
+        "arm_or_leg" : null,
+        "straight_or_twisting" : null
+    }, 
+    {
+        "name" : "armbar",
+        "type_of_submission" : "joint_lock", 
+        "arm_or_leg" : "arm",
+        "straight_or_twisting" : "straight"
+    }, 
+    {
+        "name" : "darce",
+        "type_of_submission" : "choke", 
+        "arm_or_leg" : null,
+        "straight_or_twisting" : null
+    }, 
+    {
+        "name" : "guillotine",
+        "type_of_submission" : "choke", 
+        "arm_or_leg" : null,
+        "straight_or_twisting" : null
+    }, 
+    {
+        "name" : "inside_heel_hook",
+        "type_of_submission" : "choke", 
+        "arm_or_leg" : "leg",
+        "straight_or_twisting" : "twisting"
+    }, 
+    {
+        "name" : "kimura",
+        "type_of_submission" : "joint_lock", 
+        "arm_or_leg" : "arm",
+        "straight_or_twisting" : "twisting"
+    }, 
+    {
+        "name" : "outside_heel_hook",
+        "type_of_submission" : "joint_lock", 
+        "arm_or_leg" : "leg",
+        "straight_or_twisting" : "twisting"
+    }, 
+    {
+        "name" : "rear_naked_choke",
+        "type_of_submission" : "choke", 
+        "arm_or_leg" : null,
+        "straight_or_twisting" : null
+    }, 
+    {
+        "name" : "rear_triangle",
+        "type_of_submission" : "choke", 
+        "arm_or_leg" : null,
+        "straight_or_twisting" : null
+    },
+    {
+        "name" : "triangle",
+        "type_of_submission" : "choke", 
+        "arm_or_leg" : null,
+        "straight_or_twisting" : null
+    }
+]

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>3D Object</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Imports a model-viewer JavaScript code -->
+    <!--It helps to handle how the 3D Object would be displayed -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+<body>
+   <h1>submissions</h1>
+   <p><a href="arm_in_guillotine.html">1. Arm-in guillotine</a></p>
+   <p><a href="arm_triangle.html">2. Arm triangle</a></p>
+   <p><a href="darce.html">3. Darce</a></p>
+   <p><a href="guillotine.html">4.Guillotine</a></p>
+   <p><a href="inside_heel_hook.html">5.Inside heel hook</a></p>
+   <p><a href="kimura.html">6. Kimura</a></p>
+   <p><a href="outside_heel_hook.html">7. Outside Heel Hook</a></p>
+   <p><a href="rear_naked_choke.html">8. Rear Naked Choke</a></p>
+   <p><a href="rear_triangle.html">9. Rear Triangle</a></p>
+   <p><a href="triangle.html">10. Front Triangle</a></p>
+
+<script type = "text/javascript">
+    let moves = `[
+    {
+        "name" : "arm_in_guillotine",
+        "type_of_submission" : "choke", 
+        "arm_or_leg" : null,
+        "straight_or_twisting" : null
+    }, 
+    {
+        "name" : "arm_triangle",
+        "type_of_submission" : "choke", 
+        "arm_or_leg" : null,
+        "straight_or_twisting" : null
+    }, 
+    {
+        "name" : "armbar",
+        "type_of_submission" : "joint_lock", 
+        "arm_or_leg" : "arm",
+        "straight_or_twisting" : "straight"
+    }, 
+    {
+        "name" : "darce",
+        "type_of_submission" : "choke", 
+        "arm_or_leg" : null,
+        "straight_or_twisting" : null
+    }, 
+    {
+        "name" : "guillotine",
+        "type_of_submission" : "choke", 
+        "arm_or_leg" : null,
+        "straight_or_twisting" : null
+    }, 
+    {
+        "name" : "inside_heel_hook",
+        "type_of_submission" : "joint_lock", 
+        "arm_or_leg" : "leg",
+        "straight_or_twisting" : "twisting"
+    }, 
+    {
+        "name" : "kimura",
+        "type_of_submission" : "joint_lock", 
+        "arm_or_leg" : "arm",
+        "straight_or_twisting" : "twisting"
+    }, 
+    {
+        "name" : "outside_heel_hook",
+        "type_of_submission" : "joint_lock", 
+        "arm_or_leg" : "leg",
+        "straight_or_twisting" : "twisting"
+    }, 
+    {
+        "name" : "rear_naked_choke",
+        "type_of_submission" : "choke", 
+        "arm_or_leg" : null,
+        "straight_or_twisting" : null
+    }, 
+    {
+        "name" : "rear_triangle",
+        "type_of_submission" : "choke", 
+        "arm_or_leg" : null,
+        "straight_or_twisting" : null
+    }
+]`
+console.log(JSON.parse(moves)[0].name)
+var aig = (JSON.parse(moves)[0].name)
+let loc = aig+".html"
+console.log(aig)
+console.log(loc)
+
+
+document.write('<a href="' + loc + '">First move is</a>')
+</script>
+
+</body>
+
+</html>
+
